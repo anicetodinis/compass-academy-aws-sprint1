@@ -10,6 +10,12 @@ function adivinhar() {
     const numeroDigitado = numero.value;
   
     try {
+
+      if (numeroDigitado === "") {
+        throw new Error("Preencha o campo!");
+      }else if(numeroDigitado.length < 4){
+        throw new Error("O número deve ter pelo menos quatro dígitos");
+      }  
       
       if (numeroDigitado == valorEsperado) {
         alert("Parabéns! Você acertou em " + tentativas + " tentativas");
