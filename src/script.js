@@ -3,6 +3,8 @@ const botao = document.getElementById("botao");
 
 const valorEsperado = Math.floor(Math.random() * 9999) + 1;
 
+let tentativas = 0;
+
 alert(valorEsperado);
 function adivinhar() {
     const numeroDigitado = numero.value;
@@ -10,7 +12,7 @@ function adivinhar() {
     try {
       
       if (numeroDigitado == valorEsperado) {
-        alert("Parabéns! Você acertou!");
+        alert("Parabéns! Você acertou em " + tentativas + " tentativas");
       } else {
         
         const diferenca = numeroDigitado - valorEsperado;
@@ -26,7 +28,7 @@ function adivinhar() {
         } else {
           alert("O próximo número deve ser maior");
         }  
-        
+        tentativas++;
       }
     } catch (error) {
       alert(error.message);
