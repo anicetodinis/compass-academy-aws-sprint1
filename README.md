@@ -46,7 +46,7 @@
 No terminal, clone o projeto: 
 
 ```
-git clone 
+git clone https://github.com/anicetodinis/compass-academy-aws-sprint1.git
 ```
 
 De seguida, execute o ficheiro index.html no seu navegador.
