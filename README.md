@@ -10,6 +10,8 @@
 
 > Status do Projeto: :heavy_check_mark: concluido
 
+<img src="https://gcdnb.pbrd.co/images/1i64K0mp8AQj.png?o=1"/>
+
 ### Tópicos 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
@@ -53,7 +55,7 @@ De seguida, execute o ficheiro index.html no seu navegador.
 
 Apois executar o ficheiro aparecerá a seguinte tela:
 
-<img src="https://gcdnb.pbrd.co/images/OyUVkwooQOWI.png?o=1"/>
+<img src="https://gcdnb.pbrd.co/images/1i64K0mp8AQj.png?o=1"/>
 
 De seguida, o usuário deve adivinhar um número de quatro dígitos gerado aleatoriamente. O jogo fornece dicas sobre se o número digitado é maior, menor ou muito maior ou menor que o número esperado, como mostra a imagem a baixo.
 
